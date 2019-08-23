@@ -8,7 +8,18 @@ public class FizzBuzzNumber {
 
 	public String fizzBuzz(int number) {
 		// TODO Auto-generated method stub
-		return "1";
+		if ((number%3)==0) {
+		return "Fizz";
+		}else{
+			if((number%5)==0) {
+				return "Buzz";
+			}else {
+				if((number%7)==0) {
+					return "Whizz";
+				}
+			}
+		}
+		return number+"";
 	}
 
 }
