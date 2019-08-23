@@ -21,6 +21,10 @@ public class FizzBuzzNumberTest {
             int number2=5;
             int number3=7;
             int number4=6;
+            int number5=15;
+            int number6=21;
+            int number7=35;
+            int number8=105;
     	  FizzBuzzNumber fizzBuzzNumber=new FizzBuzzNumber();
     	  //when
     	  String word=fizzBuzzNumber.fizzBuzz(number);
@@ -29,6 +33,10 @@ public class FizzBuzzNumberTest {
     	  Assertions.assertEquals("Buzz",word);
     	  Assertions.assertEquals("Whizz",word);
     	  Assertions.assertEquals("Fizz",word);
+    	  Assertions.assertEquals("FizzBuzz",word);
+    	  Assertions.assertEquals("FizzWhizz",word);
+    	  Assertions.assertEquals("BuzzWhizz",word);
+    	  Assertions.assertEquals("FizzBuzzWhizz",word);
     	  }
       }
 }
